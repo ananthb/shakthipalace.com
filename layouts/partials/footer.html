@@ -28,6 +28,9 @@
             </div>
             <div class="col-md-2">
                 <p class="text-white">&copy; {{ now.Format "2006" }} Shakthi Palace</p>
+                {{ if ne .GitInfo nil }}
+                <p><small><a target="_blank" href="https://{{ .Site.Params.repo_url }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a></small></p>
+                {{ end }}
             </div>
         </div>
     </div>
