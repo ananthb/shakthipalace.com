@@ -29,8 +29,8 @@
       <div class="col-md-2">
         <p class="text-white">&copy; {{ now.Format "2006" }} Shakthi Palace</p>
         {{ if ne .GitInfo nil }}
-        <p class="text-muted font-weight-light">
-          <small>
+        <p class="text-muted">
+          <small class="font-weight-light">
             Commit <a target="_blank" href="https://github.com/{{ .Site.Params.github_repository }}/commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
           </small>
         </p>
