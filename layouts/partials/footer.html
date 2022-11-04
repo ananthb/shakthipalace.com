@@ -1,0 +1,34 @@
+<footer class="footer pt-2 pb-2 pt-md-1 pb-md-1">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1">
+                <div class="logo">
+                    <a href="{{ .Site.BaseURL }}">
+                        {{- $logo := (resources.Get "images/shakthi-palace-logo-transparent.png").Resize "64x #fff" -}}
+                        <img alt="Shakthi Palace Logo" src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}"
+                        height="{{ $logo.Height }}">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-11">
+                {{ partial "main-menu.html" . }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 pt-1">
+                {{ range .Site.Data.contact.mobile }}
+                <a class="btn btn-outline-primary" href="tel:{{ . }}"><strong>Mobile: </strong>{{ . }}</a>
+                {{ end }}
+                {{ with .Site.Data.contact.telephone }}
+                <a class="btn btn-outline-primary" href="tel:{{ . }}"><strong>Telephone: </strong>{{ . }}</a>
+                {{ end }}
+                {{ range .Site.Data.contact.email }}
+                <a class="btn btn-outline-primary" href="mailto:{{ . }}"><strong>Email: </strong>{{ . }}</a>
+                {{ end }}
+            </div>
+            <div class="col-md-2">
+                <p class="text-white">&copy; {{ now.Format "2006" }} Shakthi Palace</p>
+            </div>
+        </div>
+    </div>
+</footer>

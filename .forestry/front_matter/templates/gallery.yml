@@ -1,0 +1,27 @@
+---
+label: gallery
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+  config:
+    required: true
+- type: file
+  name: thumbnail
+  label: Thumbnail
+- type: datetime
+  name: date
+  label: Date
+  default: now
+- type: boolean
+  name: draft
+  label: Draft
+  default: false
+- type: image_gallery
+  name: images
+  label: Photos
+pages:
+- content/gallery/events.md
+- content/gallery/premises.md
+- content/gallery/shakthi-sangita-sabha-auditorium.md

@@ -1,0 +1,71 @@
+baseURL = "https://www.shakthipalace.com"
+languageCode = "en-us"
+title = "Shakthi Palace"
+publishDir = "public"
+
+[params]
+
+[params.homepage_meta_tags]
+meta_description = """
+Shakthi Palace is a luxurious, air-conditined, wedding hall, reception hall, \
+muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar. \
+It has elevators, well-illuminated signage, fire-safety systems, roof-top dining, \
+dining hall, and mini hall. 24x7 CCTV coverage is available to keep you and yours safe. \
+
+Shakthi Sangita Sabha is a performance venue for kutcheris, concerts, dance performances, and all formal events. \
+It has excellent accoustics with soundproofing, and state-of-the-art HiFi audio systems."""
+meta_og_title = "Shakthi Palace"
+meta_og_type = "website"
+meta_og_url = "https://shakthipalace.com"
+meta_og_image = "https://shakthipalace.com/shakthi-palace/shakthi-palace-logo-transparent.png"
+meta_og_description = """
+Shakthi Palace is a luxurious, air-conditined, wedding hall, reception hall, \
+muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar. \
+It has elevators, well-illuminated signage, fire-safety systems, roof-top dining, \
+dining hall, and mini hall. 24x7 CCTV coverage is available to keep you and yours safe. \
+
+Shakthi Sangita Sabha is a performance venue for kutcheris, concerts, dance performances, and all formal events. \
+It has excellent accoustics with soundproofing, and state-of-the-art HiFi audio systems."""
+
+[[menu.main]]
+name = "Shakthi Palace"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Kalyana Mandapam"
+url = "/kalyana-mandapam/"
+weight = 2
+
+[[menu.main]]
+name = "Mini Hall"
+url = "/mini-hall/"
+weight = 3
+
+[[menu.main]]
+name = "The Auditorium"
+url = "/auditorium/"
+weight = 4
+
+[[menu.main]]
+name = "Facilities"
+url = "/facilities/"
+weight = 5
+
+[[menu.main]]
+name = "Gallery"
+url = "/gallery/"
+weight = 6
+
+[[menu.main]]
+name = "Contact Us"
+url = "/contact/"
+weight = 7
+
+[permalinks]
+events = "/:year/:month/:day/:slug/"
+venue = "/:filename/"
+
+[imaging.exif]
+includeFields = ""
+disableLatLong = true
