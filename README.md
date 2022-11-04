@@ -12,4 +12,4 @@ The admin site is [shakthipalace.com/admin](https://shakthipalace.com/admin).
 
 [MIT licensed](LICENSE)
 
-Copyright (c) 2020,2021,2022 Ananth Bhaskararaman
+Copyright (c) 2020, 2021, & 2022 Ananth Bhaskararaman

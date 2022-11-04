@@ -1,9 +1,10 @@
-baseURL = "https://www.shakthipalace.com"
-languageCode = "en-us"
+languageCode = "en-in"
 title = "Shakthi Palace"
-publishDir = "public"
+enableGitInfo = true
+enableRobotsTXT = true
 
 [params]
+repo_url = "github.com/shakthipalace/shakthi-palace-web"
 
 [params.homepage_meta_tags]
 meta_description = """
