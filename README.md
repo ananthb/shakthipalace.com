@@ -1,5 +1,7 @@
 # Shakthi Palace Website
 
+[![Deploy Hugo site to Pages](https://github.com/shakthipalace/shakthi-palace-web/actions/workflows/hugo.yml/badge.svg)](https://github.com/shakthipalace/shakthi-palace-web/actions/workflows/hugo.yml)
+
 [Shakthi Palace website](https://shakthipalace.com) is powered by [Hugo](https://gohugo.io).
 It uses a custom theme based on Bootstrap 4.
 
