@@ -31,7 +31,7 @@
         {{ if ne .GitInfo nil }}
         <p class="text-muted font-weight-light">
           <small>
-            Commit <a target="_blank" href="https://{{ .Site.Params.repo_url }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
+            Commit <a target="_blank" href="https://github.com/{{ .Site.Params.github_repository }}/commit/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>
           </small>
         </p>
         {{ end }}
