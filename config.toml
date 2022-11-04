@@ -3,9 +3,6 @@ title = "Shakthi Palace"
 enableGitInfo = true
 enableRobotsTXT = true
 
-[params]
-repo_url = "github.com/shakthipalace/shakthi-palace-web"
-
 [params.homepage_meta_tags]
 meta_description = """
 Shakthi Palace is a luxurious, air-conditined, wedding hall, reception hall, \

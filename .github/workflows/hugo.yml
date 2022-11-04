@@ -25,6 +25,7 @@ jobs:
     env:
       HUGO_VERSION: 0.102.3
       HUGO_OS: Linux-64bit
+      HUGOxPARAMSxgithub_repository: ${{ github.repository }}
     steps:
       - name: Cache Hugo deb
         uses: actions/cache@v3
