@@ -19,7 +19,7 @@
         {{ range .Site.Data.contact.mobile }}
         <a class="btn btn-outline-primary" href="tel:{{ . }}"><strong>Mobile: </strong>{{ . }}</a>
         {{ end }}
-        {{ with .Site.Data.contact.telephone }}
+        {{ range .Site.Data.contact.telephone }}
         <a class="btn btn-outline-primary" href="tel:{{ . }}"><strong>Telephone: </strong>{{ . }}</a>
         {{ end }}
         {{ range .Site.Data.contact.email }}
