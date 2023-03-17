@@ -23,8 +23,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.111.2
-      HUGO_OS: Linux-64bit
+      HUGO_VERSION: 0.111.3
+      HUGO_OS: linux-amd64
       HUGOxPARAMSxgithub_repository: ${{ github.repository }}
     steps:
       - name: Cache Hugo deb
