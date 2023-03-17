@@ -19,7 +19,7 @@
                 {{ range .Site.Data.contact.mobile }}
                 <li><strong>Mobile/<img class="whatsapp-icon" src="{{ $whatsapp.RelPermalink }}" alt="WhatsApp Available">: </strong><a href="tel:{{ . }}">{{ . }}</a></li>
                 {{ end }}
-                {{ with .Site.Data.contact.telephone }}
+                {{ range .Site.Data.contact.telephone }}
                 <li><strong>Telephone: </strong><a href="tel:{{ . }}">{{ . }}</a></li>
                 {{ end }}
                 {{ range .Site.Data.contact.email }}
