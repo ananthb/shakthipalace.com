@@ -23,7 +23,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.102.3
+      HUGO_VERSION: 0.111.3
       HUGO_OS: Linux-64bit
       HUGOxPARAMSxgithub_repository: ${{ github.repository }}
     steps:
