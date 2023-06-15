@@ -2,6 +2,10 @@
 title: Shakthi Palace Kalyana Mandapam
 date: 2020-11-09T20:47:46.000+05:30
 images:
+- "/images/img_3881.jpg"
+- "/images/img_3882.jpg"
+- "/images/img_3884.jpg"
+- "/images/img_3885.jpg"
 - "/images/img_20220429_104448879.jpg"
 - "/images/img_20220429_102751999_mp.jpg"
 - "/images/img_20220428_195722129.jpg"
