@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: 'Certified Elevators'
 draft: false

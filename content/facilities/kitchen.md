@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: 'Fully Equipped Kitchen'
 draft: false

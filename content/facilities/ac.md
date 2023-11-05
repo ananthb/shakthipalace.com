@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: 'Air Conditioning'
 draft: false

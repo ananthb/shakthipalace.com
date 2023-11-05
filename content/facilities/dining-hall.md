@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: Dining Hall
 weight: 2

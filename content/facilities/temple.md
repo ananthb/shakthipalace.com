@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: Sri Shakthi Vinayagar Temple
 icon: groups
