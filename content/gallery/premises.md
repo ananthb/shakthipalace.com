@@ -1,73 +1,71 @@
 +++
 _template = "gallery"
+title = "Shakthi Palace Kalyana Mandapam"
+date = 2020-11-09T15:17:46.000Z
+images = [
+  "/images/img_3881.jpg",
+  "/images/img_3882.jpg",
+  "/images/img_3884.jpg",
+  "/images/img_3885.jpg",
+  "/images/img_20220429_104448879.jpg",
+  "/images/img_20220429_102751999_mp.jpg",
+  "/images/img_20220428_195722129.jpg",
+  "/images/img_20220428_195644040.jpg",
+  "/images/img_20220428_195300584.jpg",
+  "/images/img_2171.jpg",
+  "/images/img_2148.jpg",
+  "/images/img_2145.jpg",
+  "/images/img_2132.jpg",
+  "/images/img_2124.jpg",
+  "/images/img_2123.jpg",
+  "/images/img_2113.jpg",
+  "/images/img_2111.jpg",
+  "/images/img_2106.jpg",
+  "/images/img_2105.jpg",
+  "/images/img_2100.jpg",
+  "/images/img_2091.jpg",
+  "/images/img_2206.jpg",
+  "/images/img_2205.jpg",
+  "/images/img_2202.jpg",
+  "/images/img_2198.jpg",
+  "/images/img_2196.jpg",
+  "/images/img_2194.jpg",
+  "/images/img_2229.jpg",
+  "/images/img_2233.jpg",
+  "/images/img_2221.jpg",
+  "/images/img_2210.jpg",
+  "images/img_1998.jpg",
+  "images/img_1995.jpg",
+  "images/img_1989.jpg",
+  "images/img_1982.jpg",
+  "images/img_1978.jpg",
+  "images/img_1976.jpg",
+  "images/img_1973.jpg",
+  "images/img_1971.jpg",
+  "images/img_1969.jpg",
+  "images/img_1966.jpg",
+  "images/img_1964.jpg",
+  "images/img_1962.jpg",
+  "images/main-hall-reception.jpg",
+  "images/mandapam-inauguration.jpg",
+  "images/mandapam-inauguration.png",
+  "images/parking.jpg",
+  "images/sabha.jpg",
+  "images/stage-flower-arrangement.jpg",
+  "images/img_20210221_190142676.jpg",
+  "images/img_20210221_192449902.jpg",
+  "images/img_20210224_192456866.jpg",
+  "images/img_20210224_192509731.jpg",
+  "images/img_20210224_192626418.jpg",
+  "images/img_20210224_205957496_hdr.jpg",
+  "images/img_20210224_210023304_mp.jpg",
+  "images/img_20210224_210040853_hdr.jpg",
+  "images/img_20210224_210434098.jpg",
+  "images/img_20210224_210609500_hdr.jpg",
+  "images/img_20210224_210800081.jpg",
+  "images/img_20210225_133112589.jpg"
+]
+thumbnail = "/images/img_1558.jpg"
 +++
 
----
-title: Shakthi Palace Kalyana Mandapam
-date: 2020-11-09T20:47:46.000+05:30
-images:
-- "/images/img_3881.jpg"
-- "/images/img_3882.jpg"
-- "/images/img_3884.jpg"
-- "/images/img_3885.jpg"
-- "/images/img_20220429_104448879.jpg"
-- "/images/img_20220429_102751999_mp.jpg"
-- "/images/img_20220428_195722129.jpg"
-- "/images/img_20220428_195644040.jpg"
-- "/images/img_20220428_195300584.jpg"
-- "/images/img_2171.jpg"
-- "/images/img_2148.jpg"
-- "/images/img_2145.jpg"
-- "/images/img_2132.jpg"
-- "/images/img_2124.jpg"
-- "/images/img_2123.jpg"
-- "/images/img_2113.jpg"
-- "/images/img_2111.jpg"
-- "/images/img_2106.jpg"
-- "/images/img_2105.jpg"
-- "/images/img_2100.jpg"
-- "/images/img_2091.jpg"
-- "/images/img_2206.jpg"
-- "/images/img_2205.jpg"
-- "/images/img_2202.jpg"
-- "/images/img_2198.jpg"
-- "/images/img_2196.jpg"
-- "/images/img_2194.jpg"
-- "/images/img_2229.jpg"
-- "/images/img_2233.jpg"
-- "/images/img_2221.jpg"
-- "/images/img_2210.jpg"
-- images/img_1998.jpg
-- images/img_1995.jpg
-- images/img_1989.jpg
-- images/img_1982.jpg
-- images/img_1978.jpg
-- images/img_1976.jpg
-- images/img_1973.jpg
-- images/img_1971.jpg
-- images/img_1969.jpg
-- images/img_1966.jpg
-- images/img_1964.jpg
-- images/img_1962.jpg
-- images/main-hall-reception.jpg
-- images/mandapam-inauguration.jpg
-- images/mandapam-inauguration.png
-- images/parking.jpg
-- images/sabha.jpg
-- images/stage-flower-arrangement.jpg
-- images/img_20210221_190142676.jpg
-- images/img_20210221_192449902.jpg
-- images/img_20210224_192456866.jpg
-- images/img_20210224_192509731.jpg
-- images/img_20210224_192626418.jpg
-- images/img_20210224_205957496_hdr.jpg
-- images/img_20210224_210023304_mp.jpg
-- images/img_20210224_210040853_hdr.jpg
-- images/img_20210224_210434098.jpg
-- images/img_20210224_210609500_hdr.jpg
-- images/img_20210224_210800081.jpg
-- images/img_20210225_133112589.jpg
-thumbnail: "/images/img_1558.jpg"
-
----
 We at Shakthi Palace host all your family events. Be it a Wedding function, Engagement, Grand reception, Sashtiyabda poorthi, Upanayanam, Seemantham or a Birthday celebration, Shakthi Palace will help you realize your dream at cost that is unbelievably low. Highest quality of service offered at very low prices at Shakthi Palace AC Kalyana Mandapam Anbu Nagar Valasaravakkam Chennai!
