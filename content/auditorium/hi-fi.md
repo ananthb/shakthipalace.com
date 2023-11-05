@@ -1,8 +1,8 @@
----
-title: 'Hi-Fi Video & Audio'
-weight: 2
-background: 'images/auditorium-angled.jpg'
----
++++
+background = 'images/auditorium-angled.jpg'
+title = 'Hi-Fi Video & Audio'
+weight = 2
++++
 
 Shakthi Sangita Sabha Auditorium is located on the Second Floor.
 Featuring high quality audio equipment and precision engineered acoustics.

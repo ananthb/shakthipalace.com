@@ -1,8 +1,8 @@
----
-title: 'The Auditorium'
-draft: false
-heroHeading: "Shakthi Sangita Sabha"
-type: 'venue'
----
++++
+draft = false
+heroHeading = 'Shakthi Sangita Sabha'
+title = 'The Auditorium'
+type = 'venue'
++++
 
 {{< strips >}}

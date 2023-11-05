@@ -1,14 +1,11 @@
 +++
-_template = "facilities"
+_template = 'facilities'
+draft = false
+heading = 'Powerful Air Conditioners'
+icon = 'ac_unit'
+title = 'Air Conditioning'
+weight = 8
 +++
-
----
-title: 'Air Conditioning'
-draft: false
-weight: 8
-icon: 'ac_unit'
-heading: 'Powerful Air Conditioners'
----
 
 Shakthi Palace boasts of a massive 90 tons of HVAC (air-conditioning) power.
 The Grand Wedding Hall air-conditioners propel cool air through specially 

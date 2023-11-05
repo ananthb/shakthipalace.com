@@ -1,70 +1,8 @@
 +++
-_template = "gallery"
-title = "Events at Shakthi Palace"
-thumbnail = "images/img_20210224_210800081.jpg"
-images = [
-  "images/img_1812.jpg",
-  "images/img_1811.jpg",
-  "images/img_1810.jpg",
-  "images/img_1808.jpg",
-  "images/img_1805.jpg",
-  "images/img_1803.jpg",
-  "images/img_1800.jpg",
-  "images/img_1794.jpg",
-  "images/img_1779.jpg",
-  "images/img_1777.jpg",
-  "images/img_1771.jpg",
-  "images/img_1766.jpg",
-  "images/img_1763.jpg",
-  "images/img_1760.jpg",
-  "images/img_1755.jpg",
-  "images/img_1677.jpg",
-  "images/img_1676.jpg",
-  "images/img_1674.jpg",
-  "images/img_1671.jpg",
-  "images/img_1668.jpg",
-  "images/img_1664.jpg",
-  "images/img_1656.jpg",
-  "images/img_1652.jpg",
-  "images/img_1638.jpg",
-  "images/img_1590.jpg",
-  "images/img_1630.jpg",
-  "images/img_1632.jpg",
-  "images/img_1626.jpg",
-  "images/img_1609.jpg",
-  "images/img_1606.jpg",
-  "images/img_1594.jpg",
-  "images/img_1593.jpg",
-  "images/img_1591.jpg",
-  "images/img_1586.jpg",
-  "images/img_1585.jpg",
-  "images/img_1583.jpg",
-  "images/img_1582.jpg",
-  "images/img_1579.jpg",
-  "images/img_1549.jpg",
-  "images/img_1559.jpg",
-  "images/img_1558.jpg",
-  "images/img_1565.jpg",
-  "images/img_1561.jpg",
-  "images/img_1552.jpg",
-  "images/img_1554.jpg",
-  "images/entrance.jpg",
-  "images/img_1416.jpg",
-  "images/img_1421.jpg",
-  "images/img_1425.jpg",
-  "images/img_1438.jpg",
-  "images/img_1456.jpg",
-  "images/img_1457.jpg",
-  "images/img_1459.jpg",
-  "images/img_1463.jpg",
-  "images/img_1465.jpg",
-  "images/img_1468.jpg",
-  "images/img_1473.jpg",
-  "images/img_1474.jpg",
-  "images/img_1477.jpg",
-  "images/img_1485.jpg",
-  "images/img_1486.jpg"
-]
+_template = 'gallery'
+images = ['images/img_1812.jpg', 'images/img_1811.jpg', 'images/img_1810.jpg', 'images/img_1808.jpg', 'images/img_1805.jpg', 'images/img_1803.jpg', 'images/img_1800.jpg', 'images/img_1794.jpg', 'images/img_1779.jpg', 'images/img_1777.jpg', 'images/img_1771.jpg', 'images/img_1766.jpg', 'images/img_1763.jpg', 'images/img_1760.jpg', 'images/img_1755.jpg', 'images/img_1677.jpg', 'images/img_1676.jpg', 'images/img_1674.jpg', 'images/img_1671.jpg', 'images/img_1668.jpg', 'images/img_1664.jpg', 'images/img_1656.jpg', 'images/img_1652.jpg', 'images/img_1638.jpg', 'images/img_1590.jpg', 'images/img_1630.jpg', 'images/img_1632.jpg', 'images/img_1626.jpg', 'images/img_1609.jpg', 'images/img_1606.jpg', 'images/img_1594.jpg', 'images/img_1593.jpg', 'images/img_1591.jpg', 'images/img_1586.jpg', 'images/img_1585.jpg', 'images/img_1583.jpg', 'images/img_1582.jpg', 'images/img_1579.jpg', 'images/img_1549.jpg', 'images/img_1559.jpg', 'images/img_1558.jpg', 'images/img_1565.jpg', 'images/img_1561.jpg', 'images/img_1552.jpg', 'images/img_1554.jpg', 'images/entrance.jpg', 'images/img_1416.jpg', 'images/img_1421.jpg', 'images/img_1425.jpg', 'images/img_1438.jpg', 'images/img_1456.jpg', 'images/img_1457.jpg', 'images/img_1459.jpg', 'images/img_1463.jpg', 'images/img_1465.jpg', 'images/img_1468.jpg', 'images/img_1473.jpg', 'images/img_1474.jpg', 'images/img_1477.jpg', 'images/img_1485.jpg', 'images/img_1486.jpg']
+thumbnail = 'images/img_20210224_210800081.jpg'
+title = 'Events at Shakthi Palace'
 +++
 
 All facilities are open and functioning for the benefit of our valued guests. Don't hesitate to give us a call. We will take care of the rest! Million reasons to conduct your function at Shakthi Palace AC Kalyana Mandapam Anbu Nagar Valasaravakkam !!

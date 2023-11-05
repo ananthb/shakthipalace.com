@@ -1,8 +1,8 @@
----
-title: Features
-weight: 3
-background: 'images/main-hall.jpg'
----
++++
+background = 'images/main-hall.jpg'
+title = 'Features'
+weight = 3
++++
 
 {{<table "table table-striped">}}
 | Features                                  | Yes | No |

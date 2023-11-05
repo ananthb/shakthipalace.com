@@ -1,8 +1,8 @@
----
-title: 'Grand Wedding Hall'
-background: 'images/reception-stage.jpg'
-weight: 1
----
++++
+background = 'images/reception-stage.jpg'
+title = 'Grand Wedding Hall'
+weight = 1
++++
 
 Grand Wedding Hall A/C located on the First Floor.
 Seating capacity of 500 guests and floating capacity of 1000 guests,
