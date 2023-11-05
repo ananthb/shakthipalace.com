@@ -1,3 +1,7 @@
++++
+_template = "gallery"
++++
+
 ---
 title: Events at Shakthi Palace
 thumbnail: images/img_20210224_210800081.jpg

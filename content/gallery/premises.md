@@ -1,3 +1,7 @@
++++
+_template = "gallery"
++++
+
 ---
 title: Shakthi Palace Kalyana Mandapam
 date: 2020-11-09T20:47:46.000+05:30

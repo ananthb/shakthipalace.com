@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: 'Abundant Water Storage'
 draft: false

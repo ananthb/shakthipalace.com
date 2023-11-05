@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: Rooftop Dining
 weight: 4

@@ -1,0 +1,20 @@
+{
+  "name": "shakthipalace.com",
+  "version": "1.0.0",
+  "description": "The Shakthi Palace website is powered by [Hugo](https://gohugo.io) with  a custom theme based on Bootstrap 4.",
+  "main": "index.js",
+  "scripts": {
+    "develop": "tinacms dev -c 'hugo server -D'",
+    "build": "tinacms build && hugo --minify --baseURL $CF_PAGES_URL"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@tinacms/cli": "^1.5.31",
+    "tinacms": "^1.5.22"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.10"
+  }
+}

@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: 'Power Backup'
 draft: false

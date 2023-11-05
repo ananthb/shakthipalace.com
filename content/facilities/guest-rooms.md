@@ -1,3 +1,7 @@
++++
+_template = "facilities"
++++
+
 ---
 title: 'Guest Rooms A/C'
 icon: 'night_shelter'
