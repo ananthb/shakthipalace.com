@@ -1,14 +1,11 @@
 +++
-_template = "facilities"
+_template = 'facilities'
+draft = false
+heading = 'Fully Equipped Kitchen'
+icon = 'kitchen'
+title = 'Fully Equipped Kitchen'
+weight = 3
 +++
-
----
-title: 'Fully Equipped Kitchen'
-draft: false
-weight: 3
-icon: 'kitchen'
-heading: 'Fully Equipped Kitchen'
----
 
 Ergonomic, well-equipped kitchen with all modern amenities.
 Proper ventilation with powerful exhaust and fresh air intake.

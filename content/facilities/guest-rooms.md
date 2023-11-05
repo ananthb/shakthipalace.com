@@ -1,15 +1,12 @@
 +++
-_template = "facilities"
+_template = 'facilities'
+draft = false
+heading = 'Annex Building with air-conditioned guest rooms'
+icon = 'night_shelter'
+images = ['images/guest-room-interior.jpg', 'images/guest-room-veranda.jpg']
+title = 'Guest Rooms A/C'
+weight = 5
 +++
-
----
-title: 'Guest Rooms A/C'
-icon: 'night_shelter'
-draft: false
-weight: 5
-heading: 'Annex Building with air-conditioned guest rooms'
-images: ['images/guest-room-interior.jpg', 'images/guest-room-veranda.jpg']
----
 
 Shakthi Palace Annex Building has two full floors of elegant and 
 spacious, furnished rooms.

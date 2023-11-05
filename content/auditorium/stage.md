@@ -1,6 +1,6 @@
----
-title: 'Fostering Arts & Culture'
-background: 'images/shakthi-sangita-sabha-auditorium-front.jpg'
-weight: 1
----
++++
+background = 'images/shakthi-sangita-sabha-auditorium-front.jpg'
+title = 'Fostering Arts & Culture'
+weight = 1
++++
 

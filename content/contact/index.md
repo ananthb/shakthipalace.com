@@ -1,4 +1,4 @@
----
-title: 'Contact Us'
-type: 'contact'
----
++++
+title = 'Contact Us'
+type = 'contact'
++++

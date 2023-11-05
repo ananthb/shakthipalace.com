@@ -1,8 +1,8 @@
----
-title: 'Best Suitable For'
-background: 'images/main-hall-west-facing.jpg'
-weight: 2
----
++++
+background = 'images/main-hall-west-facing.jpg'
+title = 'Best Suitable For'
+weight = 2
++++
 
 - Nichyadhartham
 - Traditional Weddings for all communities

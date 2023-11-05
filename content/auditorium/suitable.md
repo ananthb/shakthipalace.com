@@ -1,8 +1,8 @@
----
-title: 'Best Suitable For'
-background: 'images/auditorium.jpg'
-weight: 3
----
++++
+background = 'images/auditorium.jpg'
+title = 'Best Suitable For'
+weight = 3
++++
 
 - Margazhi Annual Music/Dance Festivals
 - Arangetram Events (Music and Dance)

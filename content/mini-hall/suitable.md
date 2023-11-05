@@ -1,8 +1,8 @@
----
-title: 'Best Suitable For'
-weight: 2
-background: 'images/mini-hall-long.jpg'
----
++++
+background = 'images/mini-hall-long.jpg'
+title = 'Best Suitable For'
+weight = 2
++++
 
 - Birth Day Functions
 - Upanayanam

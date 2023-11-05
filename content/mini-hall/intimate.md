@@ -1,8 +1,8 @@
----
-title: 'For those special moments'
-weight: 1
-background: 'images/mini-hall-stage.jpg'
----
++++
+background = 'images/mini-hall-stage.jpg'
+title = 'For those special moments'
+weight = 1
++++
 
 Luxurious Mini Hall A/C located on the First Floor.
 Ideal for small gatherings and intimate functions (capacity 100 guests).
