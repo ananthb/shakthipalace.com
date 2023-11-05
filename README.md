@@ -5,7 +5,7 @@
 The Shakthi Palace website is powered by [Hugo](https://gohugo.io) with 
 a custom theme based on Bootstrap 4.
 
-The site is hosted on Github Pages and deployed via GitHub Actions.
+The site is hosted on Cloudflare Pages.
 
 [Forestry](https://forestry.io) is used to provide administration and content editing on the web.
 The admin site is [www.shakthipalace.com/admin](https://www.shakthipalace.com/admin).
