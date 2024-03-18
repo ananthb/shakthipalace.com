@@ -4,7 +4,7 @@
       <div class="col-md-1">
         <div class="logo">
           <a href="{{ .Site.BaseURL }}">
-            {{- $logo := (resources.Get "images/shakthi-palace-logo-transparent.png").Resize "64x #fff" -}}
+            {{- $logo := (resources.Get "logos/shakthi-palace-logo-transparent.png").Resize "64x #fff" -}}
             <img alt="Shakthi Palace Logo" src="{{ $logo.RelPermalink }}" width="{{ $logo.Width }}"
               height="{{ $logo.Height }}">
           </a>
@@ -16,14 +16,29 @@
     </div>
     <div class="row">
       <div class="col-md-10 pt-1">
-        {{ range .Site.Data.contact.mobile }}
-        <a class="btn btn-outline-primary" href="tel:{{ . }}"><strong>Mobile: </strong>{{ . }}</a>
+        {{ $whatsapp := (resources.Get "logos/WhatsApp.png").Resize "24x" }}
+        {{ range .Site.Data.contact.whatsapp }}
+        <a class="btn btn-outline-primary" href="https://wa.me/{{ . }}">
+          <strong><img class="contact-icon" src="{{ $whatsapp.RelPermalink }}" alt="WhatsApp"></strong>
+          {{ . }}
+        </a>
         {{ end }}
-        {{ range .Site.Data.contact.telephone }}
-        <a class="btn btn-outline-primary" href="tel:{{ . }}"><strong>Telephone: </strong>{{ . }}</a>
+        {{ $call := (resources.Get "logos/call.png").Resize "24x" }}
+        {{ range .Site.Data.contact.phone }}
+        <a class="btn btn-outline-primary" href="tel:{{ . }}">
+          <strong>
+            <img class="contact-icon" src="{{ $call.RelPermalink }}" alt="Telephone">
+          </strong>
+          {{ . }}
+        </a>
         {{ end }}
+        {{ $emailPng := (resources.Get "logos/email.png").Resize "24x" }}
+
         {{ range .Site.Data.contact.email }}
-        <a class="btn btn-outline-primary" href="mailto:{{ . }}"><strong>Email: </strong>{{ . }}</a>
+        <a class="btn btn-outline-primary" href="mailto:{{ . }}">
+          <strong><img class="contact-icon" src="{{ $emailPng.RelPermalink }}" alt="Email"></strong>
+          {{ . }}
+        </a>
         {{ end }}
       </div>
       <div class="col-md-2">
