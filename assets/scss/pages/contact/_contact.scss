@@ -6,6 +6,10 @@
   .contact-icon {
     width: 24px;
   }
+
+  .btn-contact {
+    @include border-radius(5rem);
+  }
 }
 
 .google-maps-iframe {

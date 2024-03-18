@@ -21,7 +21,7 @@
                     <strong>WhatsApp <img class="contact-icon" src="{{ $waPng.RelPermalink }}" alt="WhatsApp"></strong>
                     <div class="btn-group" role="group" aria-label="WhatsApp">
                         {{ range . }}
-                            <a class="btn btn-outline-primary" href="https://wa.me/{{ . }}">{{ . }}</a>
+                            <a class="btn btn-outline-primary btn-contact" href="https://wa.me/{{ . }}">{{ . }}</a>
                         {{ end }}
                     </div>
                 </li>
@@ -32,7 +32,7 @@
                     <strong>Phone <img class="contact-icon" src="{{ $callPng.RelPermalink }}" alt="Telephone"></strong>
                     <div class="btn-group" role="group" aria-label="Telephone">
                         {{ range . }}
-                            <a class="btn btn-outline-primary" href="tel:{{ . }}">{{ . }}</a>
+                            <a class="btn btn-outline-primary btn-contact" href="tel:{{ . }}">{{ . }}</a>
                         {{ end }}
                     </div>
                 </li>
@@ -43,7 +43,7 @@
                     <strong>Email <img class="contact-icon" src="{{ $emailPng.RelPermalink }}" alt="Email"></strong>
                     <div class="btn-group" role="group" aria-label="Email">
                         {{ range . }}
-                            <a class="btn btn-outline-primary" href="mailto:{{ . }}?subject=Enquiry">{{ . }}</a>
+                            <a class="btn btn-outline-primary btn-contact" href="mailto:{{ . }}?subject=Enquiry">{{ . }}</a>
                         {{ end }}
                     </div>
                 </li>
@@ -53,7 +53,7 @@
                     <strong>Socials</strong>
                     <div class="btn-group" role="group" aria-label="Social Media">
                         {{ range $name, $url := . }}
-                        <a class="btn btn-outline-primary" target="_blank" href="{{ $url }}">{{ $name }}</a>
+                        <a class="btn btn-outline-primary btn-contact" target="_blank" href="{{ $url }}">{{ $name }}</a>
                         {{ end }}
                     </div>
                 </li>
