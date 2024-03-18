@@ -1,4 +1,8 @@
 .footer {
+  .btn {
+    @include border-radius(5rem);
+  }
+
   background: darken($secondary, 10%);
 
   .logo {
