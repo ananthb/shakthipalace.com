@@ -14,31 +14,65 @@
     <div class="row p-1">
         <div class="col-md">
             {{ .Content }}
-            <ul>
-                {{ $whatsapp := (resources.Get "images/WhatsApp.png").Resize "24x" }}
-                {{ range .Site.Data.contact.mobile }}
-                <li><strong>Mobile/<img class="whatsapp-icon" src="{{ $whatsapp.RelPermalink }}" alt="WhatsApp Available">: </strong><a href="tel:{{ . }}">{{ . }}</a></li>
+            <ul class="list-group">
+                {{ with .Site.Data.contact.whatsapp }}
+                <li class="list-group-item">
+                    {{ $waPng := (resources.Get "logos/WhatsApp.png").Resize "24x" }}
+                    <strong>WhatsApp <img class="contact-icon" src="{{ $waPng.RelPermalink }}" alt="WhatsApp"></strong>
+                    <div class="btn-group" role="group" aria-label="WhatsApp">
+                        {{ range . }}
+                            <a class="btn btn-outline-primary" href="https://wa.me/{{ . }}">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                </li>
                 {{ end }}
-                {{ range .Site.Data.contact.telephone }}
-                <li><strong>Telephone: </strong><a href="tel:{{ . }}">{{ . }}</a></li>
+                {{ with .Site.Data.contact.phone }}
+                <li class="list-group-item">
+                    {{ $callPng := (resources.Get "logos/call.png").Resize "24x" }}
+                    <strong>Phone <img class="contact-icon" src="{{ $callPng.RelPermalink }}" alt="Telephone"></strong>
+                    <div class="btn-group" role="group" aria-label="Telephone">
+                        {{ range . }}
+                            <a class="btn btn-outline-primary" href="tel:{{ . }}">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                </li>
                 {{ end }}
-                {{ range .Site.Data.contact.email }}
-                <li><strong>Email: </strong><a href="mailto:{{ . }}">{{ . }}</a></li>
+                {{ with .Site.Data.contact.email }}
+                <li class="list-group-item">
+                    {{ $emailPng := (resources.Get "logos/email.png").Resize "24x" }}
+                    <strong>Email <img class="contact-icon" src="{{ $emailPng.RelPermalink }}" alt="Email"></strong>
+                    <div class="btn-group" role="group" aria-label="Email">
+                        {{ range . }}
+                            <a class="btn btn-outline-primary" href="mailto:{{ . }}?subject=Enquiry">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                </li>
                 {{ end }}
-                {{ with .Site.Data.contact.address }}
-                <li><strong>Address: </strong>{{ . }}</li>
-                {{ end }}
-            </ul>
-            <strong>Social Media</strong>
-            <ul>
-                {{ range $name, $url := .Site.Data.contact.socials }}
-                <li><a target="_blank" href="{{ $url }}">{{ $name }}</a></li>
+                {{ with .Site.Data.contact.socials }}
+                <li class="list-group-item">
+                    <strong>Socials</strong>
+                    <div class="btn-group" role="group" aria-label="Social Media">
+                        {{ range $name, $url := . }}
+                        <a class="btn btn-outline-primary" target="_blank" href="{{ $url }}">{{ $name }}</a>
+                        {{ end }}
+                    </div>
+                </li>
                 {{ end }}
             </ul>
         </div>
-        <div class="col-md google-maps-iframe">
+
+        <div class="col-md">
+            {{ with .Site.Data.contact.address }}
+            <div>
+                <strong>Address</strong>
+                <p>{{ . }}</p>
+            </div>
+            {{ end }}
+
             {{ with .Site.Data.contact.map }}
+            <div class="google-maps-iframe">
                 {{ .iframe | safeHTML }}
+            </div>
             {{ end }}
         </div>
     </div>
