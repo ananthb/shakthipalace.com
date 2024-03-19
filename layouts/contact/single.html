@@ -15,17 +15,6 @@
         <div class="col-md">
             {{ .Content }}
             <ul class="list-group">
-                {{ with .Site.Data.contact.whatsapp }}
-                <li class="list-group-item">
-                    {{ $waPng := (resources.Get "logos/WhatsApp.png").Resize "24x" }}
-                    <h3><strong>WhatsApp <img class="contact-icon" src="{{ $waPng.RelPermalink }}" alt="WhatsApp"></strong></h3>
-                    <div class="btn-group" role="group" aria-label="WhatsApp">
-                        {{ range . }}
-                            <a class="btn btn-outline-primary btn-contact" href="https://wa.me/{{ . }}">{{ . }}</a>
-                        {{ end }}
-                    </div>
-                </li>
-                {{ end }}
                 {{ with .Site.Data.contact.phone }}
                 <li class="list-group-item">
                     {{ $callPng := (resources.Get "logos/call.png").Resize "24x" }}
@@ -33,6 +22,17 @@
                     <div class="btn-group" role="group" aria-label="Telephone">
                         {{ range . }}
                             <a class="btn btn-outline-primary btn-contact" href="tel:{{ . }}">{{ . }}</a>
+                        {{ end }}
+                    </div>
+                </li>
+                {{ end }}
+                {{ with .Site.Data.contact.whatsapp }}
+                <li class="list-group-item">
+                    {{ $waPng := (resources.Get "logos/WhatsApp.png").Resize "24x" }}
+                    <h3><strong>WhatsApp <img class="contact-icon" src="{{ $waPng.RelPermalink }}" alt="WhatsApp"></strong></h3>
+                    <div class="btn-group" role="group" aria-label="WhatsApp">
+                        {{ range . }}
+                            <a class="btn btn-outline-primary btn-contact" href="https://wa.me/{{ . }}">{{ . }}</a>
                         {{ end }}
                     </div>
                 </li>
