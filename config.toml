@@ -3,6 +3,9 @@ title = "Shakthi Palace"
 enableGitInfo = true
 enableRobotsTXT = true
 
+[build]
+writeStats = true
+
 [params]
 github_repository = "shakthipalace/shakthipalace.com"
 [params.homepage_meta_tags]

@@ -1,10 +1,20 @@
 {{ define "header_css" }}
-<link rel="stylesheet" href="/css/glightbox.min.css"
-  integrity="sha384-OX4SX43UMiKfAg/iDLVcipgrK8/EDhVY8qI5I+Yv4kDGqe1atN4pYaHuyBNYmMSx">
+{{ $glboxCss := resources.Get "css/glightbox.css" }}
+{{ if .Site.IsServer }}
+<link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}">
+{{ else }}
+{{ $glboxCss := $glboxCss | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}" integrity="{{ $glboxCss.Data.Integrity }}">
 {{ end }}
+{{ end }}
+
 {{ define "header_js" }}
+{{ $glboxJs := resources.Get "js/glightbox.js" }}
+{{ if not .Site.IsServer }}
+{{ $glboxJs = $glboxJs | minify | fingerprint }}
+{{ end }}
 <script type="module">
-  import "/js/glightbox.min.js";
+  import "{{ $glboxJs.RelPermalink }}";
   const lightbox = GLightbox();
 </script>
 {{ end }}
