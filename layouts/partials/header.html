@@ -7,6 +7,9 @@
           height="{{ $logo.Height }}">
       </a>
     </div>
+    {{ with .Site.GetPage "/contact" }}
+    <a href="{{ .RelPermalink }}" class="btn btn-primary d-block d-sm-none">{{ .Title }}</a>
+    {{ end }}
     {{ partial "main-menu.html" . }}
     {{ partial "hamburger.html" . }}
   </div>
