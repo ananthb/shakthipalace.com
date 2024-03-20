@@ -39,7 +39,7 @@
   <link rel="stylesheet" href="{{ $devStyle.RelPermalink }}">
   <script type="module" src="{{ $script.RelPermalink }}"></script>
   {{ else }}
-  {{ $prodStyle := $style | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) | minify | fingerprint }}
+  {{ $prodStyle := $style | toCSS (dict "targetPath" "css/style.css" "enableSourceMap" false) | postCSS | minify | fingerprint }}
   <link rel="stylesheet" href="{{ $prodStyle.RelPermalink }}" integrity="{{ $prodStyle.Data.Integrity }}">
   {{ $prodScript := $script | minify | fingerprint }}
   <script type="module" src="{{ $prodScript.RelPermalink }}" integrity="{{ $prodScript.Data.Integrity }}"></script>

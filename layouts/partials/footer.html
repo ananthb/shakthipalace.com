@@ -16,30 +16,32 @@
     </div>
     <div class="row">
       <div class="col-md-10 pt-1">
-        {{ $call := (resources.Get "logos/call.png").Resize "24x" }}
-        {{ range .Site.Data.contact.phone }}
-        <a class="btn btn-outline-primary" href="tel:{{ . }}">
-          <strong>
-            <img class="contact-icon" src="{{ $call.RelPermalink }}" alt="Telephone">
-          </strong>
-          {{ . }}
-        </a>
-        {{ end }}
-        {{ $whatsapp := (resources.Get "logos/WhatsApp.png").Resize "24x" }}
-        {{ range .Site.Data.contact.whatsapp }}
-        <a class="btn btn-outline-primary" href="https://wa.me/{{ . }}">
-          <strong><img class="contact-icon" src="{{ $whatsapp.RelPermalink }}" alt="WhatsApp"></strong>
-          {{ . }}
-        </a>
-        {{ end }}
-        {{ $emailPng := (resources.Get "logos/email.png").Resize "24x" }}
+        <div class="btn-group">
+          {{ $call := (resources.Get "logos/call.png").Resize "24x" }}
+          {{ range .Site.Data.contact.phone }}
+          <a class="btn btn-outline-primary" href="tel:{{ . }}">
+            <strong>
+              <img class="contact-icon" src="{{ $call.RelPermalink }}" alt="Telephone">
+            </strong>
+            {{ . }}
+          </a>
+          {{ end }}
+          {{ $whatsapp := (resources.Get "logos/WhatsApp.png").Resize "24x" }}
+          {{ range .Site.Data.contact.whatsapp }}
+          <a class="btn btn-outline-primary" href="https://wa.me/{{ . }}">
+            <strong><img class="contact-icon" src="{{ $whatsapp.RelPermalink }}" alt="WhatsApp"></strong>
+            {{ . }}
+          </a>
+          {{ end }}
+          {{ $emailPng := (resources.Get "logos/email.png").Resize "24x" }}
 
-        {{ range .Site.Data.contact.email }}
-        <a class="btn btn-outline-primary" href="mailto:{{ . }}">
-          <strong><img class="contact-icon" src="{{ $emailPng.RelPermalink }}" alt="Email"></strong>
-          {{ . }}
-        </a>
-        {{ end }}
+          {{ range .Site.Data.contact.email }}
+          <a class="btn btn-outline-primary" href="mailto:{{ . }}">
+            <strong><img class="contact-icon" src="{{ $emailPng.RelPermalink }}" alt="Email"></strong>
+            {{ . }}
+          </a>
+          {{ end }}
+        </div>
       </div>
       <div class="col-md-2">
         <p class="text-white">&copy; {{ now.Format "2006" }} Shakthi Palace</p>
