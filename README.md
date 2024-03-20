@@ -1,8 +1,17 @@
 # [Shakthi Palace Website](https://shakthipalace.com)
 
-The Shakthi Palace website is powered by [Hugo](https://gohugo.io) with 
-a custom theme based on Bootstrap 4.
+The Shakthi Palace website powered by [Hugo](https://gohugo.io) with
+a theme built on Bootstrap 4.
 
-[MIT licensed](LICENSE)
+## Build
 
-Copyright (c) 2020, 2021, 2022, & 2023 Ananth Bhaskararaman
+```bash
+npm ci
+hugo
+```
+
+## [LICENSE](LICENSE)
+
+Licensed under the terms of the MIT License.
+
+Copyright (c) 2020-2024 Ananth Bhaskararaman
