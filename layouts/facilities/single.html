@@ -1,22 +1,9 @@
 {{ define "header_css" }}
-{{ $glboxCss := resources.Get "css/glightbox.css" }}
-{{ if hugo.IsProduction }}
-{{ $glboxCss := $glboxCss | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}" integrity="{{ $glboxCss.Data.Integrity }}">
-{{ else }}
-<link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}">
-{{ end }}
+{{ partialCached "glightbox-css.html" . }}
 {{ end }}
 
 {{ define "header_js" }}
-{{ $glboxJs := resources.Get "js/glightbox.js" }}
-{{ if hugo.IsProduction }}
-{{ $glboxJs = $glboxJs | minify | fingerprint }}
-{{ end }}
-<script type="module">
-  import "{{ $glboxJs.RelPermalink }}";
-  const lightbox = GLightbox();
-</script>
+{{ partialCached "glightbox-js.html" . }}
 {{ end }}
 
 {{ define "main" }}
