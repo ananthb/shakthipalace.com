@@ -1,16 +1,16 @@
 {{ define "header_css" }}
 {{ $glboxCss := resources.Get "css/glightbox.css" }}
-{{ if .Site.IsServer }}
-<link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}">
-{{ else }}
+{{ if hugo.IsProduction }}
 {{ $glboxCss := $glboxCss | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}" integrity="{{ $glboxCss.Data.Integrity }}">
+{{ else }}
+<link rel="stylesheet" href="{{ $glboxCss.RelPermalink }}">
 {{ end }}
 {{ end }}
 
 {{ define "header_js" }}
 {{ $glboxJs := resources.Get "js/glightbox.js" }}
-{{ if not .Site.IsServer }}
+{{ if hugo.IsProduction }}
 {{ $glboxJs = $glboxJs | minify | fingerprint }}
 {{ end }}
 <script type="module">
@@ -54,9 +54,9 @@
 {{ $library := resources.Get "js/libs/library.js" }}
 {{ $services := resources.Get "js/pages/services.js" }}
 {{ $servicesJS := slice $library $services |resources.Concat "js/services.js" }}
-{{ if .Site.IsServer }}
-  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
-  {{ else }}
+{{ if hugo.IsProduction }}
   <script type="text/javascript" src="{{ ($servicesJS | minify | fingerprint).RelPermalink }}"></script>
+  {{ else }}
+  <script type="text/javascript" src="{{ $servicesJS.RelPermalink }}"></script>
   {{ end }}
 {{ end }}
