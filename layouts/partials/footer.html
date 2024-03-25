@@ -16,7 +16,7 @@
     </div>
     <div class="row">
       <div class="col-md-10 pt-1">
-        <div class="btn-group">
+        <div class="btn-group contact-links">
           {{ $call := (resources.Get "logos/call.png").Resize "24x" }}
           {{ range .Site.Data.contact.phone }}
           <a class="btn btn-outline-primary" href="tel:{{ . }}">

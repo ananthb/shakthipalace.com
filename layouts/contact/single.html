@@ -14,7 +14,7 @@
     <div class="row p-1">
         <div class="col-md">
             {{ .Content }}
-            <ul class="list-group">
+            <ul class="list-group contact-links">
                 {{ with .Site.Data.contact.phone }}
                 <li class="list-group-item">
                     {{ $callPng := (resources.Get "logos/call.png").Resize "24x" }}
