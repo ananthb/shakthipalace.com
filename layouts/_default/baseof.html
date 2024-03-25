@@ -16,6 +16,16 @@
     gtag('js', new Date());
 
     gtag('config', 'G-LE0CKY48V3');
+
+    // Track contact link clicks
+    document.addEventListener('DOMContentLoaded', () => {
+      const links = document.querySelectorAll('.contact-links a');
+      links.forEach(link => {
+        link.addEventListener('click', (e) => {
+          gtag('event', 'conversion');
+        });
+      });
+    });
   </script>
 
   <!-- Google Tag Manager -->
