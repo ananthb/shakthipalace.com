@@ -16,25 +16,23 @@ github_repository = "shakthipalace/shakthipalace.com"
 logo = "logos/shakthi-palace-logo-transparent.png"
 [params.homepage_meta_tags]
 meta_description = """
-Shakthi Palace is a luxurious, air-conditined, wedding hall, reception hall, \
-muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar. \
+Shakthi Palace is a luxurious, air-conditioned wedding hall, reception hall, \
+muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar, Valasaravakkam, Chennai. \
 It has elevators, well-illuminated signage, fire-safety systems, roof-top dining, \
 dining hall, and mini hall. 24x7 CCTV coverage is available to keep you and yours safe. \
 
-Shakthi Sangita Sabha is a performance venue for kutcheris, concerts, dance performances, and all formal events. \
-It has excellent accoustics with soundproofing, and state-of-the-art HiFi audio systems."""
+Shakthi Sangita Sabha auditorium for kutcheris and classical arts performances is also available - visit shakthisangitasabha.com."""
 meta_og_title = "Shakthi Palace"
 meta_og_type = "website"
 meta_og_url = "https://shakthipalace.com"
 meta_og_image = "https://shakthipalace.com/shakthi-palace/shakthi-palace-logo-transparent.png"
 meta_og_description = """
-Shakthi Palace is a luxurious, air-conditined, wedding hall, reception hall, \
-muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar. \
+Shakthi Palace is a luxurious, air-conditioned wedding hall, reception hall, \
+muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar, Valasaravakkam, Chennai. \
 It has elevators, well-illuminated signage, fire-safety systems, roof-top dining, \
 dining hall, and mini hall. 24x7 CCTV coverage is available to keep you and yours safe. \
 
-Shakthi Sangita Sabha is a performance venue for kutcheris, concerts, dance performances, and all formal events. \
-It has excellent accoustics with soundproofing, and state-of-the-art HiFi audio systems."""
+Shakthi Sangita Sabha auditorium for kutcheris and classical arts performances is also available - visit shakthisangitasabha.com."""
 
 [[menu.main]]
 name = "Shakthi Palace"
@@ -52,9 +50,11 @@ url = "/mini-hall/"
 weight = 3
 
 [[menu.main]]
-name = "The Auditorium"
-url = "/auditorium/"
+name = "Sangita Sabha"
+url = "https://shakthisangitasabha.com"
 weight = 4
+[menu.main.params]
+external = true
 
 [[menu.main]]
 name = "Facilities"
