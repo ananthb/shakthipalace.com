@@ -2,6 +2,11 @@ languageCode = "en-in"
 title = "Shakthi Palace"
 enableGitInfo = true
 enableRobotsTXT = true
+theme = "github.com/ananthb/mandapam-theme"
+
+[module]
+[[module.imports]]
+path = "github.com/ananthb/mandapam-theme"
 
 [build.buildStats]
 enable = true
@@ -67,7 +72,7 @@ weight = 7
 
 [permalinks]
 events = "/:year/:month/:day/:slug/"
-venue = "/:filename/"
+venue = "/:contentbasename/"
 
 [imaging.exif]
 includeFields = ""
