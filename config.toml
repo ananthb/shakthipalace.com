@@ -13,6 +13,7 @@ enable = true
 
 [params]
 github_repository = "shakthipalace/shakthipalace.com"
+logo = "logos/shakthi-palace-logo-transparent.png"
 [params.homepage_meta_tags]
 meta_description = """
 Shakthi Palace is a luxurious, air-conditined, wedding hall, reception hall, \
