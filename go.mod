@@ -2,4 +2,4 @@ module github.com/shakthipalace/shakthipalace.com
 
 go 1.25.5
 
-require github.com/ananthb/mandapam-theme v0.10.2 // indirect
+require github.com/ananthb/mandapam-theme v0.10.3 // indirect
