@@ -5,4 +5,4 @@ compatibility_date = "2023-11-04"
 
 [env.production.vars]
 ARGS = "--minify --baseURL https://shakthipalace.com"
-HUGO_VERSION = "0.140.2"
+HUGO_VERSION = "0.145.0"
