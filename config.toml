@@ -62,7 +62,7 @@ url = "/facilities/"
 weight = 5
 
 [[menu.main]]
-name = "Gallery"
+name = "Moments"
 url = "/gallery/"
 weight = 6
 
