@@ -7,5 +7,5 @@ title = 'Abundant Water Storage'
 weight = 9
 +++
 
-Underground and overhead water tanks can store large amounts of 
+Underground and overhead water tanks can store large amounts of
 fresh waters to cater to massive gatherings.

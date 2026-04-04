@@ -10,10 +10,10 @@ weight = 3
 - Namasankeerthanam
 - Kadhakalakshebam
 - Thirumurai Isai Recitals
-- Music School Annual Day Events  
+- Music School Annual Day Events
 - Salangai Pooja
 - Classical Dance Programs
-- Dance School Annual Day Events  
+- Dance School Annual Day Events
 - Corporate Training Sessions
 - Discourses
 - Literary Festivals, Seminars

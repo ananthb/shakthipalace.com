@@ -7,4 +7,3 @@ buttonLink: 'gallery'
 ---
 
 A fully air-conditioned venue in the heart of Chennai featuring a Grand Kalyana Mandapam, Mini Hall, and Music & Dance Auditorium. Modern amenities with traditional charm.
-

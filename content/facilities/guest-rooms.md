@@ -8,10 +8,10 @@ title = 'Guest Rooms A/C'
 weight = 5
 +++
 
-Shakthi Palace Annex Building has two full floors of elegant and 
+Shakthi Palace Annex Building has two full floors of elegant and
 spacious, furnished rooms.
-Six more car parking slots are available on the ground floor 
-for our clients. 
-Each room is fitted with state-of-the-art air-conditioners 
-and natural wooden furniture. 
-The building also has a lift.  
+Six more car parking slots are available on the ground floor
+for our clients.
+Each room is fitted with state-of-the-art air-conditioners
+and natural wooden furniture.
+The building also has a lift.

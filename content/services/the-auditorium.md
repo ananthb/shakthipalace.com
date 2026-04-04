@@ -13,4 +13,3 @@ link: 'https://shakthisangitasabha.com'
 - Arangetrams & cultural events
 - HD video recording & streaming
 - Visit [shakthisangitasabha.com](https://shakthisangitasabha.com)
-
