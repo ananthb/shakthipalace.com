@@ -6,8 +6,8 @@ weight = 1
 
 Grand Wedding Hall A/C located on the First Floor.
 Seating capacity of 500 guests and floating capacity of 1000 guests,
-with three stages – Wedding, Reception and Nadhaswaram. 
-Serviced by two sets of lifts and stairways. 
+with three stages – Wedding, Reception and Nadhaswaram.
+Serviced by two sets of lifts and stairways.
 
 Comfortable, well-cushioned, multi-coloured banquet chairs made to order.
 

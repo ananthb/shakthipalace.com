@@ -11,11 +11,11 @@ Podium mic with excellent dynamics capable of accurately portraying the speaker'
 
 The Auditorium comes fully equipped with live recording / live webcasting facility, and
 can seat 150 guests in theater style. High Definition video recording with crystal clear sound
-is available. 
+is available.
 
-Unique features such as a wide stage with attractive back-drops, motorized screen, 
+Unique features such as a wide stage with attractive back-drops, motorized screen,
 dedicated make-up, and green rooms adjoining the stage.
-The stage is aesthetically illuminted with LED focus lights, 
+The stage is aesthetically illuminted with LED focus lights,
 ideally suited for Bharathanatyam performances.
 
 Projector and screens are available for corporate meetings.

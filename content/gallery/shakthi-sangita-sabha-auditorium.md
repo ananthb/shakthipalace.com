@@ -6,4 +6,4 @@ thumbnail = '/images/sabha.jpg'
 title = 'Shakthi Sangita Sabha Auditorium '
 +++
 
-For all stage performances, events, carnatic music kutcheris, Bharathnatyam recitals, and social gatherings. Hi-tech state-of-the art A/V setup with professional mics and curated sound. Ready for all events and functions. HD Video recording and live streaming facility available upon request. Get your audio launch done at Shakthi Palace AC Auditorium. Do all dance performances - single or group - Salangai pooja or Arangetram or annual school performances in this perfect place at a very affordable budget. 
+For all stage performances, events, carnatic music kutcheris, Bharathnatyam recitals, and social gatherings. Hi-tech state-of-the art A/V setup with professional mics and curated sound. Ready for all events and functions. HD Video recording and live streaming facility available upon request. Get your audio launch done at Shakthi Palace AC Auditorium. Do all dance performances - single or group - Salangai pooja or Arangetram or annual school performances in this perfect place at a very affordable budget.

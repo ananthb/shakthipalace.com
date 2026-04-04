@@ -9,9 +9,9 @@ weight = 2
 - Sashtiabdha poorthi
 - Sadabhishekham
 - Engagements
-- Seemantham 
+- Seemantham
 - All family functions
-- Intimate Gatherings 
+- Intimate Gatherings
 - Office Get Togethers
 - Training Sessions
 - Send-off Parties
