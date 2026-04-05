@@ -4,3 +4,6 @@
 hugo_stats.json
 node_modules
 .direnv
+
+# cachix/git-hooks.nix
+.pre-commit-config.yaml
