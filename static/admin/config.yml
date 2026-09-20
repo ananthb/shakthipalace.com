@@ -53,6 +53,9 @@ collections:
       fields: [weight, title]
       default: { field: weight, direction: ascending }
     fields:
+      # The filter above hides the section's own index.md (headless: true);
+      # Sveltia wants the field declared to filter on it. Hidden: never edited.
+      - { name: headless, widget: hidden, required: false }
       - { name: title, label: Title, widget: string }
       - { name: weight, label: Order, widget: number, value_type: int }
       - { name: background, label: Background image, widget: image }
@@ -73,6 +76,9 @@ collections:
       fields: [weight, title]
       default: { field: weight, direction: ascending }
     fields:
+      # The filter above hides the section's own index.md (headless: true);
+      # Sveltia wants the field declared to filter on it. Hidden: never edited.
+      - { name: headless, widget: hidden, required: false }
       - { name: title, label: Title, widget: string }
       - { name: weight, label: Order, widget: number, value_type: int }
       - { name: icon, label: Icon, widget: string, hint: "A Material Icons name, e.g. cake, restaurant, event" }
