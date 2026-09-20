@@ -1,14 +1,16 @@
 # Sveltia CMS. Served at https://shakthipalace.com/admin/, signs in through
-# gitea.calculon.tech (which signs in through Vault) and commits to main.
+# calculon.tech, the forge (which signs in through Vault), and commits to main.
 backend:
   name: gitea
   repo: ananthb/shakthipalace.com
   branch: main
-  base_url: https://gitea.calculon.tech
-  api_root: https://gitea.calculon.tech/api/v1
+  base_url: https://calculon.tech
+  api_root: https://calculon.tech/api/v1
   # Client id of the public OAuth2 app declared in calculon-tech/platform,
-  # tf/gitea/sites.tf (output sveltia_app_ids).
-  app_id: d5f1400f-0aa0-47d0-96c6-1e34e4cc0c86
+  # tf/forgejo/sites.tf (output sveltia_app_ids).
+  app_id: bb1acf39-d296-4bdc-87b8-99881f0bb1b2
+  # Vault is the only door: no personal-access-token sign-in.
+  auth_methods: [oauth]
 
 site_url: https://shakthipalace.com
 display_url: https://shakthipalace.com
