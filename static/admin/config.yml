@@ -20,6 +20,19 @@ display_url: https://shakthipalace.com
 media_folder: assets/images
 public_folder: images
 
+# Photos are resized on the way in, so phone originals never reach the repo.
+media_libraries:
+  default:
+    config:
+      max_file_size: 20000000
+      slugify_filename: true
+      transformations:
+        raster_image:
+          format: webp
+          quality: 85
+          width: 1600
+          height: 1600
+
 slug:
   encoding: ascii
   clean_accents: true
@@ -112,21 +125,35 @@ collections:
       - { name: images, label: Photos, widget: list, required: false, field: { name: image, label: Photo, widget: image } }
       - { name: body, label: Text, widget: markdown }
 
-  - name: gallery
-    label: Galleries
-    label_singular: Gallery
-    folder: content/gallery
+  - name: moments
+    label: Moments
+    label_singular: Moment
+    description: A dated set of photos from an event. Title, date, drop the photos in, save.
+    folder: content/moments
+    path: "{{year}}/{{slug}}/index"
+    media_folder: ""
+    public_folder: ""
     extension: md
     format: toml-frontmatter
     create: true
-    slug: "{{slug}}"
+    preview_path: "/moments/{{year}}/{{slug}}/"
+    summary: "{{date | date('D MMM YYYY')}} · {{title}}"
+    thumbnail: cover
+    sortable_fields:
+      fields: [date, title]
+      default: { field: date, direction: descending }
     fields:
-      - { name: _template, widget: hidden, default: gallery }
-      - { name: title, label: Title, widget: string }
-      - { name: date, label: Date, widget: datetime, required: false }
-      - { name: thumbnail, label: Cover photo, widget: image }
-      - { name: images, label: Photos, widget: list, field: { name: image, label: Photo, widget: image } }
-      - { name: body, label: Text, widget: markdown, required: false }
+      - { name: title, label: What was it, widget: string, hint: "e.g. Reception for the Krishnamurthy family" }
+      - { name: date, label: When, widget: datetime, time_format: false, default: "{{now}}" }
+      - { name: venue, label: Where, widget: select, required: false, options: [Grand Wedding Hall, Mini Hall, Rooftop, Shakthi Sangita Sabha] }
+      - { name: cover, label: Cover photo, widget: image }
+      - { name: photos, label: Photos, widget: image, multiple: true, max: 80 }
+      - { name: body, label: A line or two, widget: markdown, required: false, minimal: true }
+      - { name: draft, label: Draft, widget: boolean, default: false, required: false }
+      # Older moments keep their photos under assets/images; never shown for new ones.
+      - { name: images, widget: hidden, required: false }
+      - { name: thumbnail, widget: hidden, required: false }
+      - { name: aliases, widget: hidden, required: false }
 
   - name: kalyana_mandapam
     label: Kalyana Mandapam
@@ -154,6 +181,8 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: weight, label: Order, widget: number, value_type: int }
       - { name: background, label: Background image, widget: image, required: false }
+      - { name: features, label: At-a-glance chips, widget: list, required: false, hint: "Shown by {{< features >}} in the text" }
+      - { name: rules, label: House rules chips, widget: list, required: false }
       - { name: body, label: Text, widget: markdown }
 
   - name: mini_hall
@@ -182,33 +211,7 @@ collections:
       - { name: title, label: Title, widget: string }
       - { name: weight, label: Order, widget: number, value_type: int }
       - { name: background, label: Background image, widget: image, required: false }
-      - { name: body, label: Text, widget: markdown }
-
-  - name: auditorium
-    label: Auditorium
-    label_singular: Section
-    folder: content/auditorium
-    extension: md
-    format: toml-frontmatter
-    create: true
-    slug: "{{slug}}"
-    sortable_fields:
-      fields: [weight, title]
-      default: { field: weight, direction: ascending }
-    index_file:
-      name: index
-      label: Venue page
-      fields:
-        - { name: title, label: Title, widget: string }
-        - { name: heroHeading, label: Hero heading, widget: string }
-        - { name: type, widget: hidden, default: venue }
-        - { name: date, widget: hidden, required: false }
-        - { name: draft, label: Draft, widget: boolean, default: false, required: false }
-        - { name: aliases, widget: hidden, required: false }
-        - { name: body, label: Intro, widget: markdown, required: false, hint: "Keep the {{< strips >}} line: it places the sections" }
-    fields:
-      - { name: title, label: Title, widget: string }
-      - { name: weight, label: Order, widget: number, value_type: int }
-      - { name: background, label: Background image, widget: image, required: false }
+      - { name: features, label: At-a-glance chips, widget: list, required: false, hint: "Shown by {{< features >}} in the text" }
+      - { name: rules, label: House rules chips, widget: list, required: false }
       - { name: body, label: Text, widget: markdown }
 

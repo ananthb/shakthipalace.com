@@ -3,7 +3,7 @@ title: 'The Annex Building'
 icon: 'apartment'
 weight: 7
 draft: false
-link: 'facilities/guest-rooms'
+link: '/facilities/guest-rooms/'
 ---
 
 - 12 air-conditioned rooms for our valued guests

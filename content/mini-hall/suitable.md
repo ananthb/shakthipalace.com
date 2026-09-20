@@ -1,12 +1,12 @@
 +++
 background = 'images/mini-hall-long.jpg'
-title = 'Best Suitable For'
+title = 'Best suited for'
 weight = 2
 +++
 
 - Birth Day Functions
 - Upanayanam
-- Sashtiabdha poorthi
+- Sashtiabdapoorthi
 - Sadabhishekham
 - Engagements
 - Seemantham

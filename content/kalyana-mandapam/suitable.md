@@ -1,6 +1,6 @@
 +++
 background = 'images/main-hall-west-facing.jpg'
-title = 'Best Suitable For'
+title = 'Best suited for'
 weight = 2
 +++
 

@@ -1,17 +1,19 @@
-# [Shakthi Palace Website](https://shakthipalace.com)
+# [Shakthi Palace](https://shakthipalace.com)
 
-The Shakthi Palace website powered by [Hugo](https://gohugo.io) with
-a theme built on Bootstrap 4.
+A Hugo site on [mandapam-theme](https://github.com/ananthb/mandapam-theme),
+built and served by Cloudflare Pages from `main`. Content is edited at
+[shakthipalace.com/admin/](https://shakthipalace.com/admin/) (Sveltia CMS,
+signing in through calculon.tech).
 
 ## Build
 
 ```bash
-npm ci
-hugo
+nix develop
+hugo server
 ```
 
 ## [LICENSE](LICENSE)
 
 Licensed under the terms of the MIT License.
 
-Copyright (c) 2020-2024 Ananth Bhaskararaman
+Copyright (c) 2020-2026 Ananth Bhaskararaman

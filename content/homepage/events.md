@@ -1,9 +1,9 @@
 ---
-title: 'A Million Reasons to Celebrate'
+title: 'Modern amenities, traditional charm'
 weight: 1
 background: 'images/main-hall-seats.jpg'
-button: 'Explore Moments'
-buttonLink: 'gallery'
+button: 'Explore the halls'
+buttonLink: '/kalyana-mandapam/'
 ---
 
-A fully air-conditioned venue in the heart of Chennai featuring a Grand Kalyana Mandapam, Mini Hall, and Music & Dance Auditorium. Modern amenities with traditional charm.
+Weddings, receptions, nichyadhartham, upanayanam, sashtiabdapoorthi, arangetrams and kutcheris: three venues on three floors, with lifts, guest rooms, a vegetarian dining hall and rooftop dining for 300, all under one roof in Anbu Nagar.

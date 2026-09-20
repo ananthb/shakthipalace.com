@@ -3,7 +3,7 @@ title: 'Dining Hall A/C'
 icon: 'restaurant'
 weight: 4
 draft: false
-link: 'facilities/dining-hall'
+link: '/facilities/dining-hall/'
 ---
 
 - Well-equipped kitchen

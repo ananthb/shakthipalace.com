@@ -3,7 +3,7 @@ title: 'Special Features'
 draft: false
 icon: 'all_inclusive'
 weight: 6
-link: 'facilities'
+link: '/facilities/'
 ---
 
 - Full power backup (UPS/125kVA genset)

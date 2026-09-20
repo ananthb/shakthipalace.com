@@ -3,7 +3,7 @@ title: 'Grand Wedding Hall A/C'
 draft: false
 icon: 'event'
 weight: 1
-link: 'kalyana-mandapam'
+link: '/kalyana-mandapam/'
 ---
 
 - 500 persons seating capacity (1000 floating)

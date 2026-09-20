@@ -3,7 +3,7 @@ title: 'Event Management'
 icon: 'book_online'
 weight: 5
 draft: false
-link: 'contact'
+link: '/#contact'
 ---
 
 - One stop for full event management

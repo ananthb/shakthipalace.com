@@ -1,38 +1,60 @@
+baseURL = "https://shakthipalace.com/"
 languageCode = "en-in"
 title = "Shakthi Palace"
-enableGitInfo = true
 enableRobotsTXT = true
 theme = "github.com/ananthb/mandapam-theme"
+
+# Programmes are dated in the future; taxonomies have no templates.
+buildFuture = true
+disableKinds = ["taxonomy", "term"]
 
 [module]
 [[module.imports]]
 path = "github.com/ananthb/mandapam-theme"
 
 [params]
-github_repository = "shakthipalace/shakthipalace.com"
 logo = "logos/shakthi-palace-logo-transparent.png"
-[params.homepage_meta_tags]
-meta_description = """
-Shakthi Palace is a luxurious, air-conditioned wedding hall, reception hall, \
-muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar, Valasaravakkam, Chennai. \
-It has elevators, well-illuminated signage, fire-safety systems, roof-top dining, \
-dining hall, and mini hall. 24x7 CCTV coverage is available to keep you and yours safe. \
+hero_eyebrow = "சக்தி பேலஸ் · வளசரவாக்கம்"
+hero_cta = "Check a date on WhatsApp"
+hero_button = "See the venues"
+hero_button_link = "#venues"
+whatsapp_message = "Hi, I'd like to check availability at Shakthi Palace for "
+services_kicker = "Under one roof"
+services_heading = "The venues"
+moments_kicker = "Moments"
+moments_heading = "Recent events"
+moments_all = "All moments"
 
-Shakthi Sangita Sabha auditorium for kutcheris and classical arts performances is also available - visit shakthisangitasabha.com."""
+# The lotus logo: plum and marigold.
+[params.theme]
+primary = "#5e2a63"
+primary_deep = "#2e1533"
+accent = "#f2a900"
+ivory = "#fbf7ee"
+ink = "#241b22"
+positive = "#25714b"
+
+[[params.facts]]
+value = "500"
+label = "seated · 1,000 floating"
+[[params.facts]]
+value = "90 t"
+label = "of air-conditioning"
+[[params.facts]]
+value = "14"
+label = "a/c guest rooms"
+[[params.facts]]
+value = "3"
+label = "lifts, four levels"
+
+[params.homepage_meta_tags]
+meta_description = "Shakthi Palace is a fully air-conditioned kalyana mandapam, mini hall and music auditorium in Anbu Nagar, Valasaravakkam, Chennai, with guest rooms, rooftop dining, lifts and full power backup."
 meta_og_title = "Shakthi Palace"
 meta_og_type = "website"
-meta_og_url = "https://shakthipalace.com"
-meta_og_image = "https://shakthipalace.com/shakthi-palace/shakthi-palace-logo-transparent.png"
-meta_og_description = """
-Shakthi Palace is a luxurious, air-conditioned wedding hall, reception hall, \
-muhurtham venue, and event hall. Shakthi Palace is situated in Anbu Nagar, Valasaravakkam, Chennai. \
-It has elevators, well-illuminated signage, fire-safety systems, roof-top dining, \
-dining hall, and mini hall. 24x7 CCTV coverage is available to keep you and yours safe. \
-
-Shakthi Sangita Sabha auditorium for kutcheris and classical arts performances is also available - visit shakthisangitasabha.com."""
+meta_og_url = "https://shakthipalace.com/"
 
 [[menu.main]]
-name = "Shakthi Palace"
+name = "Home"
 url = "/"
 weight = 1
 
@@ -60,18 +82,19 @@ weight = 5
 
 [[menu.main]]
 name = "Moments"
-url = "/gallery/"
+url = "/moments/"
 weight = 6
 
 [[menu.main]]
-name = "Contact Us"
+name = "Contact"
 url = "/#contact"
 weight = 7
 
 [permalinks]
-events = "/:year/:month/:day/:slug/"
-venue = "/:contentbasename/"
+moments = "/moments/:year/:slug/"
 
+[imaging]
+quality = 82
 [imaging.exif]
 includeFields = ""
 disableLatLong = true

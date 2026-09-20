@@ -3,7 +3,7 @@ title: 'Mini Hall A/C'
 weight: 2
 icon: 'cake'
 draft: false
-link: 'mini-hall'
+link: '/mini-hall/'
 ---
 
 - 100 persons seating capacity
