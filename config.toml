@@ -38,14 +38,14 @@ positive = "#25714b"
 value = "500"
 label = "seated · 1,000 floating"
 [[params.facts]]
-value = "90 t"
-label = "of air-conditioning"
+value = "2"
+label = "dining halls, indoor and rooftop"
 [[params.facts]]
 value = "14"
 label = "a/c guest rooms"
 [[params.facts]]
-value = "3"
-label = "lifts, four levels"
+value = "A/C"
+label = "powerful air-conditioning"
 
 [params.homepage_meta_tags]
 meta_description = "Shakthi Palace is a fully air-conditioned kalyana mandapam, mini hall and music auditorium in Anbu Nagar, Valasaravakkam, Chennai, with guest rooms, rooftop dining, lifts and full power backup."
